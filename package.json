@@ -1,0 +1,11 @@
+{
+  "name": "coronaswirus_stats",
+  "version": "1.0.0",
+  "description": "",
+  "main": "swirus.js",
+  "scripts": {
+    "test": "node swirus.js"
+  },
+  "author": "prgt2",
+  "license": "ISC"
+}
