@@ -3,8 +3,8 @@ const fs = require('fs')
 const swirusy = require('./swirusy.json')
 async function swiruj() {
     const browser = await puppeteer.launch({
-        executablePath: "/mnt/c/Program Files (x86)/Google/Chrome/Application/chrome.exe",
-        userDataDir: "mnt/c/Users/User.DESTKOP-AJTIGN3N/AppData/Local/Temp/puppeteer_user_data",
+        //executablePath: "/mnt/c/Program Files (x86)/Google/Chrome/Application/chrome.exe",
+        //userDataDir: "mnt/c/Users/User.DESTKOP-AJTIGN3N/AppData/Local/Temp/puppeteer_user_data",
         //headless: false
     })
     const page = await browser.newPage()

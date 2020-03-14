@@ -7,5 +7,8 @@
     "test": "node swirus.js"
   },
   "author": "prgt2",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^2.1.1"
+  }
 }
